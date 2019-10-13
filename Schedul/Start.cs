@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Schedul
 {
-    static class Program
+    static class Start
     {
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
@@ -16,7 +16,7 @@ namespace Schedul
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Mainfrm());
         }
     }
 }
