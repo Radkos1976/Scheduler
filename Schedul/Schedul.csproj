@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calendar_Sett.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar_Sett.Designer.cs">
+      <DependentUpon>Calendar_Sett.cs</DependentUpon>
+    </Compile>
     <Compile Include="scheduler_sett.cs" />
     <Compile Include="Mainfrm.cs">
       <SubType>Form</SubType>
@@ -56,6 +62,9 @@
     <Compile Include="settings.cs" />
     <Compile Include="Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Calendar_Sett.resx">
+      <DependentUpon>Calendar_Sett.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mainfrm.resx">
       <DependentUpon>Mainfrm.cs</DependentUpon>
     </EmbeddedResource>

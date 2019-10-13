@@ -49,7 +49,7 @@
             // 
             // toolStripContainer1.ContentPanel
             // 
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(800, 383);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(800, 408);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
             this.toolStripContainer1.Name = "toolStripContainer1";
@@ -57,7 +57,7 @@
             this.toolStripContainer1.TabIndex = 0;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
-            // toolStripContainer1.TopPanel
+            // toolStripContainer1.TopToolStripPanel
             // 
             this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.ToolPnl);
             this.toolStripContainer1.TopToolStripPanel.Enabled = false;
@@ -74,7 +74,7 @@
             this.ToolPnl.Location = new System.Drawing.Point(3, 0);
             this.ToolPnl.Name = "ToolPnl";
             this.ToolPnl.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.ToolPnl.Size = new System.Drawing.Size(168, 42);
+            this.ToolPnl.Size = new System.Drawing.Size(199, 42);
             this.ToolPnl.TabIndex = 0;
             // 
             // count_Refr
@@ -112,7 +112,6 @@
             // 
             // calendar_sett
             // 
-            this.calendar_sett.CheckOnClick = true;
             this.calendar_sett.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.calendar_sett.Image = ((System.Drawing.Image)(resources.GetObject("calendar_sett.Image")));
             this.calendar_sett.ImageTransparentColor = System.Drawing.Color.Magenta;
