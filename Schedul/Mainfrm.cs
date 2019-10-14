@@ -90,5 +90,11 @@ namespace Schedul
                 Sel_db(false);
             }
         }
+
+        private void calendar_sett_Click(object sender, EventArgs e)
+        {
+            Calendar_Sett cal = new Calendar_Sett();
+            cal.Show();
+        }
     }
 }

@@ -18,7 +18,7 @@ namespace Schedul
         public static void Save()
         {
             Properties.Settings.Default.Db_path = Db_path;
-            Conn_str = "Microsoft.ACE.OLEDB.12.0; Data Source =" + Db_path;
+            Conn_str = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Db_path;
             Properties.Settings.Default.Conn_str = Conn_str;
             Properties.Settings.Default.Save();            
         }

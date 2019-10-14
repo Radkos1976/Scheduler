@@ -118,6 +118,7 @@
             this.calendar_sett.Name = "calendar_sett";
             this.calendar_sett.Size = new System.Drawing.Size(39, 39);
             this.calendar_sett.Text = "Ustawienia kalendarzy";
+            this.calendar_sett.Click += new System.EventHandler(this.calendar_sett_Click);
             // 
             // statusStrip1
             // 
